@@ -30,7 +30,7 @@ module Chucknorriscr
         data = JSON.parse quote
         total = data["total"]
         data["result"].as_a.each do |holyquote|
-          a = JSON.parse holyquote.to_json
+          a = JSON::Any.new(holyquote)
           puts "[😝 ] " + a["value"].to_s
         end
         sp.stop
