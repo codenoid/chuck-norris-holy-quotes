@@ -16,7 +16,6 @@ git clone https://github.com/codenoid/chuck-norris-holy-quotes.git
 cd chuck-norris-holy-quotes
 crystal build src/chucknorriscr.cr
 ./chucknorriscr
-
 ```
 
 
@@ -49,3 +48,7 @@ pwiz help me,
 ## Contributors
 
 - [codenoid](https://github.com/codenoid) Rubi Jihantoro - creator, maintainer
+- [Quotes API](http://api.chucknorris.io/) Chuck Norris Quotes API
+- Crystalist
+- [Chuck Norris](https://en.m.wikipedia.org/wiki/Chuck_Norris) 
+
