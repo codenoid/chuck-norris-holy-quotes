@@ -14,6 +14,7 @@ make sure you have crystal language installed in your system, [how to install](h
 ```
 git clone https://github.com/codenoid/chuck-norris-holy-quotes.git
 cd chuck-norris-holy-quotes
+shards install
 crystal build src/chucknorriscr.cr
 ./chucknorriscr
 ```
@@ -51,4 +52,5 @@ pwiz help me,
 - [Quotes API](http://api.chucknorris.io/) Chuck Norris Quotes API
 - Crystalist
 - [Chuck Norris](https://en.m.wikipedia.org/wiki/Chuck_Norris) 
+- [Spinner](http://github.com/askn/spinner)
 
