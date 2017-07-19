@@ -1,4 +1,4 @@
-# Chuck Norris Holy Quotes
+# Chuck Norris Holy Quotes [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/veelenga/awesome-crystal)
 
 ![Funny Chuck](https://s23.postimg.org/spvt3vh97/chuck.gif)
 
