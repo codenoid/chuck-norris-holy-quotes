@@ -52,7 +52,7 @@ $ [😝 ] Chuck Norris does not walk dogs, his cats do.
 ## Development
 
 - [x] Single and random quote
-- [ ] Eaching value from needed quote
+- [x] Eaching value from needed quote (thanks @bew)
 - [ ] GUI Version
 
 pwiz help me,
