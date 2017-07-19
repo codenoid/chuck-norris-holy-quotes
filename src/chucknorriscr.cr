@@ -29,8 +29,7 @@ module Chucknorriscr
       if !quote.nil?
         data = JSON.parse quote
         total = data["total"]
-        data["result"].as_a.each do |holyquote|
-          a = JSON::Any.new(holyquote)
+        data["result"].each do |holyquote|
           puts "[😝 ] " + a["value"].to_s
         end
         sp.stop
