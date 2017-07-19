@@ -1,0 +1,17 @@
+name: chucknorriscr
+version: 0.1.0
+
+authors:
+  - Rubi Jihantoro <jihantoro8@gmail.com>
+  
+dependencies:
+  spinner:
+    github: askn/spinner
+
+targets:
+  chucknorriscr:
+    main: src/chucknorriscr.cr
+
+crystal: 0.23.1
+
+license: MIT
