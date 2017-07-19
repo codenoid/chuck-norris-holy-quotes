@@ -16,22 +16,24 @@ module Chucknorriscr
       quote = response.body_io.gets
       if !quote.nil?
         data = JSON.parse quote
-        puts "[😝 ]" + data["value"].to_s
+        puts "[😝 ] " + data["value"].to_s
         sp.stop
       end
     end
   elsif wdyw && !wdyw.includes? "random quote"
-    puts "masuk"
     url = "https://api.chucknorris.io/jokes/search?query=" + wdyw
+    sp.start
     HTTP::Client.get(url) do |response|
       response.status_code
       quote = response.body_io.gets
       if !quote.nil?
         data = JSON.parse quote
         total = data["total"]
-        (0...total.to_s.to_i).each do |i|
-          onequote = data["result"][i]
+        data["result"].as_a.each do |holyquote|
+          a = JSON.parse holyquote.to_json
+          puts "[😝 ] " + a["value"].to_s
         end
+        sp.stop
       end
     end
   end
